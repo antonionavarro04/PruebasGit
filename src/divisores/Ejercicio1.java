@@ -22,7 +22,7 @@ public class Ejercicio1 {
 		
 		for(int i=2; i<=number; i++) {
 			if(number%i==0 && isPrime(i)) {
-				cont++;
+				cont--;
 			}
 		}
 		
